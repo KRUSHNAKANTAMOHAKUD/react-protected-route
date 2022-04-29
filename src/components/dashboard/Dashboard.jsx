@@ -14,7 +14,7 @@ function Dashboard() {
   return(
     <>
     <Navbar/>
-     <img src={DashboardImg} alt="dashboard image" />
+     <img src={DashboardImg} alt="dashboard image" style={{width:'100vw',height:'100vh'}}/>
      </>
      );
 }
